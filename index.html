@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/ICON.png" rel="icon">
-  <link href="assets/img/ICON.png" rel="apple-touch-icon">
+  <link href="assets/img/New_Icon.png" rel="icon">
+  <link href="assets/img/New_Icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -28,7 +28,16 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  
+  <style>
+    .img-heading-container {
+  display: flex;
+  align-items: center;
+}
+.img-fluid {
+  margin-right: 10px; /* Add margin between image and heading if needed */
+}
+
+  </style>
 </head>
 
 <body>
@@ -40,7 +49,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="logo me-auto"><img src="assets/img/ICON.png" alt="" class="img-fluid"></a></li>
+          <li><a href="index.html" class="logo me-auto"><img src="assets/img/New_Icon.png" alt="" class="img-fluid"></a></li>
           <li><a href="index.html" class="logo me-auto"><h1 class="logo text-lg-start"> &nbsp;&nbsp;WideRangeTrading</h1></a></li>
         </ul>
         <ul>
@@ -430,13 +439,16 @@ document.getElementById('btn-showless').addEventListener('click', function() {
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <span><img src="assets/img/ICON.png" class="img-fluid" width="50"/><h6><strong>WideRangeTradingServices</strong></h6></span>
-          
+            <span class="img-heading-container">
+              <img src="assets/img/New_Icon.png" class="img-fluid" width="50"/>
+              <h6><strong>WideRangeTrading</strong></h6>
+            </span>
+            <br>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              Addressline1 <br>
+              Place, State 000000<br>
+              Country <br><br>
+              <strong>Phone:</strong> +x xxxx xxxx xx<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
